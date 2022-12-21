@@ -1,0 +1,22 @@
+all:
+    vars:
+      ansible_user: sa_111447712299092139885
+      ansible_ssh_private_key_file: "../secrets/ssh-key-deployment"
+      gcp_service_account_file: "../secrets/deployment.json"
+      gcp_service_account_email: "deployment@ai5-c3-group7.iam.gserviceaccount.com"
+      gcp_auth_kind: "serviceaccount"
+      gcp_scopes: "https://www.googleapis.com/auth/compute"
+      gcp_project: "ai5-c3-group7"
+      gcp_region: "us-west1"
+      gcp_zone: "us-west1-b"
+      docker_network_name: "appnetwork"
+      persistent_disk_name: "harmonizer-app-disk"
+      persistent_disk_size: 50
+      machine_instance_name: "harmonizer-app"
+      machine_type: "n2-standard-2"
+      machine_disk_size: 30
+
+    children:
+        appserver:
+            hosts:
+                34.83.39.71:

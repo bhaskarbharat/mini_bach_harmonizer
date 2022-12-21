@@ -1,0 +1,23 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+uvicorn = "*"
+fastapi = "*"
+google-auth = "*"
+google-cloud-storage = "*"
+tensorflow = "==2.9.2"
+pandas = "*"
+tensorflow-hub = "*"
+python-multipart = "*"
+numpy = "*"
+gdown = "*"
+asyncio = "*"
+pathlib = "*"
+
+[requires]
+python_version = "3.8"
