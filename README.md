@@ -5,14 +5,13 @@ The Mini Bach Harmonizer is a tool that takes 8 note melody as input and generat
 
 ## Project Presentation
 
-### Presentation
-<iframe src="https://prezi.com/p/embed/XfH2B5x19bg28RRCiHuH/" id="iframe_container" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" allow="autoplay; fullscreen" height="315" width="560"></iframe>
+[**Presentation**](https://prezi.com/view/XfH2B5x19bg28RRCiHuH/)
 
 ### Video Presentation
 [![video presentation](https://github.com/bhaskarbharat/mini_bach_harmonizer/raw/main/images/Presentation_Wallpaper.png)](https://www.youtube.com/watch?v=G5-u3YE2TSQ&t=229s)
 
 
-### Here are the steps to deploy the __harmonizer-app__:
+## Steps to deploy the __harmonizer-app__:
  - Download [harmonizer-app](https://github.com/bhaskarbharat/mini_bach_harmonizer/tree/main/harmonizer-app) folder.
  - `mkdir persistent-folder` inside the harmonizer-app folder.
  - `mkdir secrets` inside the harmonizer-app folder.
